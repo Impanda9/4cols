@@ -9,7 +9,7 @@ document.getElementById("quiz-form").addEventListener("submit", function(event) 
         localStorage.setItem("Nr differences", answerValue);
         console.log("Selected answer registered in local storage:", answerValue);
 
-        window.location.href = "5.SChrt.html";
+        window.location.href = "https://github.com/Impanda9/5Chart";
     } else {
         console.log("No answer selected");
     }
